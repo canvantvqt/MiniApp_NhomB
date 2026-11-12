@@ -48,7 +48,7 @@ def dataframe_to_csv(df):
     return df.to_csv(index=False).encode("utf-8-sig")
 
 # [4] TRANG CHỦ: giới thiệu mục tiêu và giới hạn sản phẩm.
-st.title("🌙 Màn hình thông minh – Giấc ngủ an lành")
+st.title("🌙 Sử dụng Màn hình có kiểm soát – Giấc ngủ an lành")
 st.caption("Mini App STEM Tin học 9 | Dự án “Dữ liệu vì sức khỏe học đường” | Nhóm B")
 st.info(
     "Ứng dụng học tập giúp quan sát thói quen sử dụng màn hình và giấc ngủ. "
